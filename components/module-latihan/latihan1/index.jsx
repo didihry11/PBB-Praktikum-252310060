@@ -12,8 +12,15 @@ const styles = StyleSheet.create({
 export default function index() {
   return (
     <View style={styles.container}>
-      <Text> Welcome </Text>
-      <Text> Praktikum lab pemrograman perangkat bergerak </Text>
+      <Text style={{ textAlign: "center" }}>
+        {" "}
+        Selamat Datang di Praktikum Pemrograman Perangkat Bergerak{" "}
+      </Text>
+      <Text> Nama : Didi Haryadi </Text>
+      <Text> NIM : 252310060 </Text>
+      <Text> Prodi : Teknologi Informasi </Text>
+      <Text> Angkatan : 2024 </Text>
+      <Text> Kelas : TI-24-KA </Text>
     </View>
   );
 }
