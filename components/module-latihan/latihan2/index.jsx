@@ -17,13 +17,6 @@ const Latihan2 = () => {
   const total_point = 120;
   const criteria_point = total_point >= 300;
 
-  const Latihan2 = () => {
-  const DataDiri = {
-    name: "Didi Haryadi",
-    jurusan: "Teknologi Informasi",
-    aktif: true,
-  };
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Personal Information</Text>
@@ -54,6 +47,8 @@ const Latihan2 = () => {
   );
 };
 
+export default Latihan2;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -67,5 +62,3 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
-
-export default Latihan2;
